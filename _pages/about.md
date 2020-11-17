@@ -6,4 +6,4 @@ permalink: /about
 
 *This is an about page.*
 
-Feel free to tell the world about what you love! 😍
+There is nothing here yet! Check back later. Or nudge me on [Twitter](https://twitter.com/herrowna).

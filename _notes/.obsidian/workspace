@@ -1,0 +1,90 @@
+{
+  "main": {
+    "id": "1d78c2be5e493f50",
+    "type": "split",
+    "children": [
+      {
+        "id": "b41e1543b01862d0",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "the-spark.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8bcb578989bfe3bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "88c00b00f6397a88",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "050bc588c8b700ab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "88e501142b8d0856",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d1f0a919647b1529",
+    "type": "split",
+    "children": [
+      {
+        "id": "26367af0789b7987",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "24d058fdad3ddba7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "the-spark.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "the-spark.md",
+    "unpeel-the-layers-of-nuance.md",
+    "transition-from-lurking-to-contributing.md",
+    "shape-of-curiousity.md",
+    "schröedinger's-cat.md",
+    "quantum-entanglement.md",
+    "point-of-divergence.md",
+    "navel-gazing.md",
+    "hypertext-fiction.md",
+    "directives.md"
+  ]
+}
