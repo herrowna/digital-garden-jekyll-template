@@ -6,14 +6,29 @@
       {
         "id": "b41e1543b01862d0",
         "type": "leaf",
+        "dimension": 45.18109269490485,
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "the-spark.md",
+            "file": "curiousity-trails.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "61c42de45837f938"
+      },
+      {
+        "id": "674a0d16ab096cb0",
+        "type": "leaf",
+        "dimension": 54.81890730509515,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "curiousity-trails.md",
+            "mode": "preview"
+          }
+        },
+        "group": "61c42de45837f938"
       }
     ],
     "direction": "vertical"
@@ -48,7 +63,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 239.51218795776367
   },
   "right": {
     "id": "d1f0a919647b1529",
@@ -64,7 +79,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "the-spark.md"
+                "file": "curiousity-trails.md"
               }
             }
           }
@@ -76,15 +91,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "the-spark.md",
+    "curiousity-trails.md",
+    "liminal-space.md",
+    "dont-go-alone.md",
+    "directives.md",
+    "Untitled.md",
     "unpeel-the-layers-of-nuance.md",
-    "transition-from-lurking-to-contributing.md",
+    "self-image.md",
     "shape-of-curiousity.md",
-    "schröedinger's-cat.md",
-    "quantum-entanglement.md",
-    "point-of-divergence.md",
-    "navel-gazing.md",
-    "hypertext-fiction.md",
-    "directives.md"
+    "transition-from-lurking-to-contributing.md",
+    "the-spark.md"
   ]
 }

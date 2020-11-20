@@ -1,5 +1,5 @@
 ---
-title: transitioning from lurking to contirbuting
+title: transitioning from lurking to contributing
 ---
 
 Crossing the chasm between consuming, tastemaking and creating.
