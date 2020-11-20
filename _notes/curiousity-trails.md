@@ -10,7 +10,7 @@ A [[choose your own adventure]] game where the wanderer explores a curiousity by
 > 
 > ✶ Media and book recommendations are tagged with emojis: 📚🎶📼
 > 
-> ✶ If you would like to contribute to this document, DM me on Twitter!
+> ✶ If you would like to [contribute](https://github.com/herrowna/navel-gazing) to this document, DM me on Twitter!
 
 
 What drives our curiousity? Where does [[the spark]] originate from? Is it the cause of nature or nurture?
