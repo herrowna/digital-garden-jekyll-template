@@ -1,6 +1,6 @@
-$color-primary: hsl(0, 0%, 10%);
-$color-text: hsl(0, 0%, 20%);
-$color-subtext: hsl(0, 0%, 30%);
+$color-primary: hsl(192, 24%, 50%);
+$color-text: hsl(200, 5%, 24%);
+$color-subtext: hsl(206, 19%, 41%);
 $color-border: hsl(0, 0%, 85%);
 $color-box-background: mix($color-primary, white, 4%);
 $border-radius: 4px;
@@ -27,11 +27,12 @@ time {
   display: block;
   color: $color-subtext;
   margin: 0.5em 0 1em;
+  font-size: 0.8rem;
 }
 
 footer {
   margin: 2em 0;
-  font-size: 0.8em;
+  font-size: 1em;
   color: mix($color-text, white, 80%);
   padding-top: 1em;
 }
@@ -78,19 +79,18 @@ h6 {
 a {
   transition: background 300ms;
   padding: 0 0.1em;
+  border-bottom: 1px dotted $color-border;
   text-decoration: none;
-  border-bottom: 1px solid $color-border;
   color: $color-primary;
   &:hover {
-    color: black !important;
-    background: #fffaf1;
+    color: #c6c5b9 !important;
   }
   &:after {
     position: relative;
     top: -0.5em;
     font-size: 0.7em;
     content: "↗";
-    color: #aaaaaa;
+    color: #a22c29;
   }
   &.internal-link:after {
     content: "";
@@ -98,7 +98,7 @@ a {
 }
 
 *:focus {
-  background: #ffe8bc !important;
+  background: #bcdbff !important;
   color: black !important;
 }
 
