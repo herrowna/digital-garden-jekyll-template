@@ -20,7 +20,7 @@
       {
         "id": "674a0d16ab096cb0",
         "type": "leaf",
-        "dimension": 54.81890730509515,
+        "dimension": 6.852363413136894,
         "state": {
           "type": "markdown",
           "state": {
@@ -29,6 +29,36 @@
           }
         },
         "group": "61c42de45837f938"
+      },
+      {
+        "id": "cbbd0d2c2ae89ac7",
+        "type": "leaf",
+        "dimension": 6.852363413136894,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "adventure.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "50e8a596e0f241d0",
+        "type": "leaf",
+        "dimension": 13.704726826273788,
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      },
+      {
+        "id": "043281275351e099",
+        "type": "leaf",
+        "dimension": 27.409453652547576,
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -55,7 +85,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ""
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
               }
             }
           }
@@ -79,7 +114,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "curiousity-trails.md"
+                "file": "curiousity-trails.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -92,14 +132,14 @@
   },
   "lastOpenFiles": [
     "curiousity-trails.md",
+    "adventure.md",
+    "choose-your-own-adventure.md",
+    "a new page.md",
+    "mapping-the-trail.md",
+    "Untitled.md",
     "liminal-space.md",
     "dont-go-alone.md",
     "directives.md",
-    "Untitled.md",
-    "unpeel-the-layers-of-nuance.md",
-    "self-image.md",
-    "shape-of-curiousity.md",
-    "transition-from-lurking-to-contributing.md",
-    "the-spark.md"
+    "unpeel-the-layers-of-nuance.md"
   ]
 }

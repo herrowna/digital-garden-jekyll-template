@@ -66,7 +66,7 @@ When we approach this tension, life's older chapters have an opportunity to come
 
 ## Closing the loop on curiousity
 
-Meeting with an older chapter of your life is akin to [unpacking a box](/shape-of-curiousity){: .internal-link}. The stories we make for ourselves are recursive and fold back on each other, and the loops may present themselves in the form of an unsatiatied curiousity.
+Meeting with an older chapter of your life is akin to [unpacking a box](/shape of curiousity){: .internal-link}. The stories we make for ourselves are recursive and fold back on each other, and the loops may present themselves in the form of an unsatiatied curiousity.
 
 An attendee shared their childhood story of being told that girls cannot be sailors or play music. It was a 'boys only' club. When they grew up and saw a young sailor girl at the harbour, they felt emotional because the curiousity was disconnected at a young age, and manifested as a trigger in their adult life. 
 
@@ -76,10 +76,9 @@ Some times, we need to go backwards to move forwards.
 
 ## Curiousity as a co-op
 
-Extending on outward curiousity, some times it's worth going with the people you love and trust. Trust their intuition and [follow them through their rabbit holes](/dont-go-alone){: .internal-link}. It's worth seeing through a project just because you're there for the human connections you will make.
+Extending on outward curiousity, some times it's worth going with the people you love and trust. Trust their intuition and [follow them through their rabbit holes](/dont go alone){: .internal-link}. It's worth seeing through a project just because you're there for the human connections you will make.
 
 ## Conversation with everything
-
 
 
 ## Curiousity requires hunger
