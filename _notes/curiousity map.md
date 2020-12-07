@@ -1,4 +1,3 @@
-
 ---
 title: curiousity map
 ---
