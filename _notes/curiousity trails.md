@@ -11,6 +11,8 @@ A [[choose your own adventure]] game where the wanderer explores a curiousity by
 > ✶ Media and book recommendations are tagged with emojis: 📚🎶📼
 > 
 > ✶ If you would like to [contribute](https://github.com/herrowna/navel-gazing) to this document, DM me on Twitter!
+>
+> ✶ This document is considered **🌳 evergreen** as of 23 December, 2020.
 
 
 What drives our curiousity? Where does [[the spark]] originate from? Is it the cause of nature or nurture?
@@ -58,7 +60,7 @@ Travelling or living abroad introduces us to new narratives, and new ways of bei
 When we go abroad and come home, there's a 'clash of narratives' between:
 
 - Integrating what we learned from the foreign society
-- Going back to the previous role we played in our homeland
+- Returning to the role we played in our homeland
 
 There's a tension between embracing a new identity, or reinforcing an existing identity.
 
@@ -66,41 +68,53 @@ When we approach this tension, life's older chapters have an opportunity to come
 
 ## Closing the loop on curiousity
 
-Meeting with an older chapter of your life is akin to [unpacking a box](/shape of curiousity){: .internal-link}. The stories we make for ourselves are recursive and fold back on each other, and the loops may present themselves in the form of an unsatiatied curiousity.
+Meeting with an older chapter of your life is akin to [unpacking a box](/shape-of-curiousity){: .internal-link}. The stories we make for ourselves are recursive and fold back on each other, and the loops may present themselves in the form of an unsatiatied curiousity.
 
 An attendee shared their childhood story of being told that girls cannot be sailors or play music. It was a 'boys only' club. When they grew up and saw a young sailor girl at the harbour, they felt emotional because the curiousity was disconnected at a young age, and manifested as a trigger in their adult life. 
 
-Some times, we need to go backwards to move forwards.
+Some times, we need to go backwards to move forwards. Only by closing old feedback loops can we make meaningful closures and to start anew -- perhaps provoking us to do things differently, or go forth and pursue what was abandoned with renewed fervour.
 
 # Ingredients for curiousity 🥒
 
 ## Curiousity as a co-op
 
-Extending on outward curiousity, some times it's worth going with the people you love and trust. Trust their intuition and [follow them through their rabbit holes](/dont go alone){: .internal-link}. It's worth seeing through a project just because you're there for the human connections you will make.
+Extending on outward curiousity, some times it's worth going with the people you love and trust. Trust their intuition and [follow them through their rabbit holes](/dont-go-alone){: .internal-link}. It's worth seeing through a project just because you're there for the human connections you will make.
+
+For those of us who grew up as people-pleasers, it can be hard to 'reset' and '[[know thyself]]' -- in which case, hopping on to a trusted friend's curiousity trail may help us develop our own taste.
 
 ## Conversation with everything
 
+Curiousity starts as a conversation with our surroundings. An attendee has started multiple podcast channels because of their unending curiousity towards certain topics, which allows them to seek out for those willing to engage in the same dialogue.
 
-## Curiousity requires hunger
+## Curiousity is fuelled by hunger
+
+Curiousity works the same way as hunger to satisfy our cravings, be it mental or physical. After all, there is the metaphor 'hunger/thirst for knowledge'. 
+
+For every second we fall deeper into the rabbit hole, we are taking a gamble — will we find what we're searching for in the next click? The next sentence? Where could our trail possibly lead us? It's no surprise that after hours or research or joyous wandering, we often return to reality with an empty stomach, a parched throat, maybe even a dull headache — a small price to pay for the intellectual satisfaction.
+
+📑 [Explaining the power of curiousity - to your brain, hunger for knowledge is much the same as hunger for food](https://digest.bps.org.uk/2018/12/03/explaining-the-power-of-curiosity-to-your-brain-hunger-for-knowledge-is-much-the-same-as-hunger-for-food/)
 
 ## Curiousity needs a third-party or observer
 
-Some times we change before we know it. An experienced mentor, guide, or coach could help observe ourselves in the [[liminal space]] and what comes out on the other side.
+Some times we change before we know it. An experienced mentor, guide, or coach could help observe us as we traverse the [[liminal space]] and offer us hints or prompts for reflection. 
+
+Once provoked, we can use the pointers given to us by our revered seniors for introspection. They can trigger inward curiousity and inform us on our patterns, to mirror back what others have seen in us. 
 
 ## Curiousity, space & safety
 
-Culture plays a big role in how we flourish with curiousity. When society is accepting, we feel safe to explore our curiousities in public. 
+Culture plays a big role in how we flourish in curiousity. When society is accepting, we feel safe to explore our curiousities in public. 
 
 At the same time, curiousity could throw us into a 'societal void', where people with similar curiousities brew extreme or obsessive behaviour.
 
 ## Zooming in and out of curiousity
 
-To stay curious, we can look at how toddlers perceive their world, and consider the questions they ask about the world. As we get older, life offers abstraction layers which hides away complexities. We just want to *zoom out* and get on with our lives. Toddlers help us zoom in and peel away those abstraction layers.
+Curiousity is a default state in children. To stay curious, we can look at how toddlers perceive their world, and consider the questions they ask about their world. As we get older, life offers abstraction layers which hides away complexities. We just want to *zoom out* and get on with our lives. The curiousity and imagination of toddlers help us zoom in and peel away those abstraction layers.
 
 Some questions worth asking while introspecting:
 
-> *How would my 15 year old self approach this?*
+> *How would my 15 year old self approach this? (go further back as you like!)*
 
+and
 
 > *Why not?!*
 
@@ -117,7 +131,14 @@ An attendee shared that the act of listening to funk music (they recommend 🎶 
 
 Another attendee shared that they experienced an inhibition of curiuosity while they were under medication. 
 
-Yet a number of attendees have mentioned that learning to dance or playing a musical instrument introduced a magical feeling in their body. When you get the hang of a new skill, you start to rely on your muscle memory and that frees up your brain to enjoy moment. You get to let loose.
+Yet a number of attendees have mentioned that learning to dance or playing a musical instrument introduced a magical feeling in their body. When you get the hang of a new skill, you start to rely on your muscle memory more, and that frees up your brain to enjoy moment. You get to let loose.
+
+## Changing variables in the mundane
+
+An attendee offered an easy trick for cultivating more curiousity in the mundane:
+
+> I've taken a different approach to running: I don't aim to run, I aim to walk. But then I feel excited about doing something extra, only then do I run. I respond to my body's desire for more movement.
+
 
 ## The mindset for approaching curiousity
 
@@ -127,6 +148,11 @@ For some, the intellectual pursuit of knowing has led to feeling overwhelmed, en
 
 For some, the visceral approach to curiousity is playful, emotional, inspiring, and uncontrolled. Akin to falling into a rabbit hole?
 
+There seems to be a distinction between exploiting & exploring a curiousity: we need to constantly check-in with ourselves to make sure we're not tipping over to the point of diminishing returns. We will never truly be satisfied, but we shouldn't be exploiting for gains either.
+
+> *Am I seeking for the truth, or am I looking to prove myself right?*
+> *Am I ready to be proven wrong?*
+
 # When curiousity is inhibited 🔪
 
 🏕 An attendee shared a summer camp story where they were learning to cut cucumbers in a particular shape, until somebody told them they had no place in the kitchen. Flustered and discouraged, they didn't cultivate the curiousity and put off cooking for a long time.
@@ -135,7 +161,7 @@ For some, the visceral approach to curiousity is playful, emotional, inspiring, 
 
 **📚 Personality Isn't Permanent by Benjamin Hardy**
 
-From that lesson, they learned to address safety concerns and fears to reduce resistance = maximise the flourishing of curiousity.
+From that lesson, they learned to address safety concerns and fears to reduce resistance, which in turn maximise the flourishing of curiousity.
 
 When we're comfortable, we have the luxury of experiencing discomfort. We are prepared to let go of the anchors of what we know, to welcome the tension of curiousity (re: abstraction layers).
 
@@ -148,5 +174,12 @@ Pursuing a curiousity has a huge productivity barrier, it takes a lot to wilfull
 A number of attendees reflected on how trauma can delay introspection and inhibit curiousity. Once again, we need to lower the stakes and cultivate psychological safety before we unpack a box. 
 
 Trauma & depression can be a very dramatic way of conserving energy, but paradoxically it is curiousity and the drive to learn new things that help us get out of a rut.
+
+The journey of unpacking is often a solo undertaking, which is all the more reason why we must remember to first be friends with ourselves.
+
+Some words of comfort from Seneca:
+
+> ***‘What progress have I made? I am beginning to be my own friend.’***
+> *I’ll tell you what took my fancy in the writings of Hecato today. ‘What progress have I made? I am beginning to be my own friend.’ That is progress indeed. Such a person will never be alone, and you may be sure he is a friend of all."*
 
 
