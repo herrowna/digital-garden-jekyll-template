@@ -8,4 +8,4 @@ A collection of dialogue notes from my [Interintellect salons](https://interinte
 
 - [Curiosity Trails: Making Connections That Frame Our Reality](https://www.eventbrite.co.uk/e/curiosity-trails-making-connections-that-frame-our-reality-ii-salon-tickets-124826047067) - 24 October 2020
 - [Mapping The Trail: Charting The Journey Of Curiosities](https://www.eventbrite.co.uk/e/mapping-the-trail-charting-the-journey-of-curiosities-ii-salon-tickets-128530057863) - 21 November 2020
-- TBD: Next in the curiousity series 👀 - 3 January 2021
+- [Down The Rabbit Hole: Uncovering The Obscure](https://www.eventbrite.co.uk/e/down-the-rabbit-hole-uncovering-the-obscure-curiosity-workshop-ii-salon-tickets-133606549787)  - 2 January 2021
