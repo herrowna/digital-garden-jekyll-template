@@ -98,4 +98,11 @@ Follow their curiousity trail, pair up and help someone else with their project.
 
 # Get Tickets
 
-[Pilot - 2nd January, 2020](https://www.eventbrite.co.uk/e/down-the-rabbit-hole-uncovering-the-obscure-curiosity-workshop-ii-salon-tickets-133606549787)
+- [Pilot - 2nd January, 2020](https://www.eventbrite.co.uk/e/down-the-rabbit-hole-uncovering-the-obscure-curiosity-workshop-ii-salon-tickets-133606549787)
+- [Kick-off - 6th February, 2021](https://www.eventbrite.com/e/down-the-rabbit-hole-the-infinite-curiosity-atlas-ii-intro-salon-tickets-137597813765)
+- Infinite Curiousity Atlas (I)
+- Infinite Curiousity Atlas (II)
+- Infinite Curiousity Atlas (III)
+- Infinite Curiousity Atlas (IV)
+- Infinite Curiousity Atlas (V)
+- [Series Bundle Ticket - 20th February - 12th June, 2021](https://www.eventbrite.com/e/down-the-rabbit-hole-camp-curiosity-ii-workshop-salon-series-tickets-137507609963)

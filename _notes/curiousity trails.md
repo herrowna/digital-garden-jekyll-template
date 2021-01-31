@@ -80,7 +80,7 @@ Some times, we need to go backwards to move forwards. Only by closing old feedba
 
 Extending on outward curiousity, some times it's worth going with the people you love and trust. Trust their intuition and [follow them through their rabbit holes](/dont-go-alone){: .internal-link}. It's worth seeing through a project just because you're there for the human connections you will make.
 
-For those of us who grew up as people-pleasers, it can be hard to 'reset' and '[[_notes/know thyself]]' -- in which case, hopping on to a trusted friend's curiousity trail may help us develop our own taste.
+For those of us who grew up as people-pleasers, it can be hard to 'reset' and '[[know thyself]]' -- in which case, hopping on to a trusted friend's curiousity trail may help us develop our own taste.
 
 ## Conversation with everything
 
