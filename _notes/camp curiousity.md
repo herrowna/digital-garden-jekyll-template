@@ -23,7 +23,7 @@ Together, we will seek for the common thread in our individual trails, use the p
 
 ## What is going on?
 
-Camp Curiousity is a series of workshops operating on the first Saturday of each month, throughout 2021. In each workshop, attendees will plant the seeds of their curiousities and find playmates to collaborate with. The goal is to create a communal garden patch where everyone contributes to a larger graph of collective knowledge (much like the one you see at the foot of this page). 
+Camp Curiousity is a series of workshops operating on the ~~first~~ third Saturday of each month, throughout 2021. In each workshop, attendees will plant the seeds of their curiousities and find playmates to collaborate with. The goal is to create a communal garden patch where everyone contributes to a larger graph of collective knowledge (much like the one you see at the foot of this page). 
 
 At the end of 2021, we will be hosting a 'harvest festival' where we marvel at our fruits & crops of the year, and celebrate each other for keeping a light on in our imaginative faculties 🧠
 
@@ -56,13 +56,14 @@ Here are some examples from historical pairings:
 - Co-learning in playing the drum set
 - 101 dialogue in Effective Altruism
 - Assistance in setting up a digital garden
-- Roam 'coaching' with a profilic Roam user 
-
+- Roam Research 'coaching' with a profilic Roam user 
+- Chaotic mad hatter-esque tea parties where we hold space for others to cultivate their pet theories
+- Building a multiplayer graph in Roam Research
 
 
 ## What you can expect
 
-During the live workshops, new members will be inaugurated through profile cards, and we'll all share our curiousity starting points for the month. 
+During the live workshops, we'll share our curiousity starting points for the month by pasting in links of articles, pictures, videos, or your own work.
 
 For the bulk of the session, members will be actively participating in planting new seeds, or tending to existing crops. We'll also help each other along the way by offering tips and resources by connecting ideas together.
 
@@ -100,7 +101,7 @@ Follow their curiousity trail, pair up and help someone else with their project.
 
 - [Pilot - 2nd January, 2020](https://www.eventbrite.co.uk/e/down-the-rabbit-hole-uncovering-the-obscure-curiosity-workshop-ii-salon-tickets-133606549787)
 - [Kick-off - 6th February, 2021](https://www.eventbrite.com/e/down-the-rabbit-hole-the-infinite-curiosity-atlas-ii-intro-salon-tickets-137597813765)
-- Infinite Curiousity Atlas (I)
+- [Infinite Curiousity Atlas (I)](https://www.eventbrite.com/e/down-the-rabbit-hole-the-infinite-curiousity-atlas-part-1-ii-salon-tickets-140441429095)
 - Infinite Curiousity Atlas (II)
 - Infinite Curiousity Atlas (III)
 - Infinite Curiousity Atlas (IV)
