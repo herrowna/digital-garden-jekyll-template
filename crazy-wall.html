@@ -1,0 +1,1956 @@
+<html class="js-focus-visible" data-js-focus-visible="" style="--vh:8.21px;"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="twitter:card" value="summary">
+    <meta name="twitter:title" value="domino: a tool for collaging thoughts" id="twitter-title">
+    <meta name="twitter:image" value="https://kool.tools/domino/twitter-card.png">
+    <meta name="twitter:image:alt" value="low fidelity image of many dominoes connected">
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAXUlEQVQ4jWNkQANfHl77jy6GDHjktRiR+SgcQpqxGcKETcGRY+sZjhxbj5M/ElxACmBB5uByJj4w8F7AawC+0IeBQeYFYmIBXQ0LIQWEACO6wI7lrXjDwSOyGkUPAKUpOzwONiPPAAAAAElFTkSuQmCC">
+    <title>domino: a tool for collaging thoughts</title>
+    <script id="data" type="text/json">{"cards":[{"cell":[0,1],"text":"this is thistle","type":"basic-thistle","icons":[]},{"cell":[-1,-1],"text":"Here are some example of card styles","type":"broider-example","icons":[]},{"cell":[-1,0],"text":"this is columbia blue","type":"basic-columbia-blue","icons":[]},{"cell":[-1,1],"text":"this is torquiose blue","type":"basic-turquoise-blue","icons":[]},{"cell":[-1,2],"text":"this is uranian blue","type":"basic-uranian-blue","icons":[]},{"cell":[0,0],"text":"this is celeste","type":"basic-celeste","icons":[]},{"cell":[0,-1],"text":"this is heading","type":"heading","icons":[]},{"cell":[2,-1],"text":"freedom at all costs\n--\nlove at all costs","type":"basic-thistle","icons":[]},{"cell":[2,0],"text":" ⃔ child's play   ⃔\n\n↪ adult's play ⤴\n","type":"basic-columbia-blue","icons":[]},{"cell":[3,-1],"text":"growth\n\n↕\n\nstability","type":"basic-celeste","icons":[]},{"cell":[2,-2],"text":"who's going to love you if your core is hollow?","type":"basic-thistle","icons":[]},{"cell":[3,-2],"text":"my crazy wall","type":"heading","icons":[]},{"cell":[2,1],"text":"> Freedom is better than enlightenment\n\nAlan Clements","type":"basic-columbia-blue","icons":[]},{"cell":[4,-5],"text":"**What's going on?**\n\nLook around and click on some notes.","type":"basic-thistle","icons":[{"icon":"⬇️","command":"#-2,2"},{"icon":"","command":""},{"icon":"","command":""},{"icon":"","command":""}]},{"cell":[4,-6],"text":"welcome to navel-gazing!","type":"heading","icons":[{"icon":"🔗","command":"https://navel-gazing.xyz"},{"icon":"🐦","command":"https://twitter.com/herrowna"},{"icon":"","command":""},{"icon":"","command":""}]},{"cell":[5,-6],"text":"friends","type":"heading","icons":[{"icon":"","command":""},{"icon":"","command":""},{"icon":"","command":""},{"icon":"","command":""}],"image":"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCACbAQgDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAHhABAAICAwEBAQAAAAAAAAAAAAERITFBUWFxMoH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAcEQEBAQEBAQEBAQAAAAAAAAAAAREhMUFRYXH/2gAMAwEAAhEDEQA/ANL4C33BrGIvEoHsPKAAC2X1CauIs/pBcTQAAW+4QlLF4lAMNALN/DP0CZ6gJSxZ/SAeQvafAW+4NXEXiUD2J5QAALW+oTVxFn9ILiaAGwyrO/qE9yE4XoETip0YTVwXcUgtmxJcoHh7AAtx0hKWYRhZ39Qn0s6SgETUVOikmguEJdLMWMxSB4Z03gHsLcdG4ZqGgBZ39QkJwvQImoqdGE1cFjMUgtmxJcoHh6ALcdISlmEYAMNWq2gE/pc+ALuPhbhJqLUoUXfhM+rKAQoEYJxJvTOG1qtoF1ZgAIC7j4hKWLUk9JQnV4ARhakDZOJDdhmVa7QCb9LnwBdx8LcJNRalAu/CZ9WekAhQIwTiTemcNgHTgtJqRP7F/lOTgFT/AABeMFuEmlWUgnV4G5sFQCPTUn8M+rSATS4cAALV/TjCJ6vi1SAs1Lnw3NgR6eHotJqRP7F/lDgFT/AFrFwW4SaVf0pBOrwNzYKgEehpizuEAnC9WIuMJUgnV4LCC3qThGjkAWpQ/oTS4E7gCkFjMIF/hP6VIBNLixi0jQB8OVqUP6dOAAE7gAnC9WIuEqQTq8FjFoLepOEaOQBalD+hNLgAqLfUUh8EkW0J7F4lL+rPxFuOkFs1JcNgEKRn6Cz+k+r7E1xa31CHxbCUOQVk9F4lEjV/VuOk2CYaEZ+gqQLri1n9ITsW8q31CHwJEtOT0XiUv6s/EW46QWzUlw2AQpGfJBZ/SfV9iXXFgLiaLfhO/qJ71fOGwFQBYzFF4TKl0X1AJi6ANMgRhZ39ZaL8TYLmJboAqBdLGYpGfeVrzsL6gBZEtANALfhO/qJ6vhsBUAWMxReEypdF9QCYugDTIGhOrwnueBaraEv4WfpE1idLhBMXQFqVuJNTw9WUPTxbjpAJFtCe5IytVstiSVCJrE6A9NxcIBCh4tST0bFyp6tx0gWEoBs8T0nuRaraEpYRPE6XCCYugLUrcSanh6soeni3HSASLaBsNiZQFo2Qy1F3HxOThL2LOXoAqAtX9Ko2GVIwTiQ3NmdXeABUn4C0hsMsXcIcBIW8AWr+nIdqEYWqQ5TsJxIbmwnhb0BaNkMt6i7j4hwl7Fly9AFQFq/pVGwypGPhOJDc2Z1d4AGJpqRZ4RJ2LeXgA0yLWMIsM1qIEaFQAVCPTUizwz5WvYgCoAKi8YRY5SNMz3Gr5oAqBHoAakWeESdi3l4ANMi1jCLDNan4gRoVABUI9ATF1//Z"},{"cell":[5,-5],"text":"norman chella","type":"broider-example","icons":[{"icon":"🐦","command":"https://twitter.com/normanchella"},{"icon":"","command":""},{"icon":"","command":""},{"icon":"","command":""}]}]}</script>
+    <link href="https://fonts.googleapis.com/css?family=Lora&amp;display=swap" rel="stylesheet">
+    <!-- third party libraries-->
+    <script>var DragDropTouch;!function(t){"use strict";var e=function(){function t(){this._dropEffect="move",this._effectAllowed="all",this._data={}}return Object.defineProperty(t.prototype,"dropEffect",{get:function(){return this._dropEffect},set:function(t){this._dropEffect=t},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"effectAllowed",{get:function(){return this._effectAllowed},set:function(t){this._effectAllowed=t},enumerable:!0,configurable:!0}),Object.defineProperty(t.prototype,"types",{get:function(){return Object.keys(this._data)},enumerable:!0,configurable:!0}),t.prototype.clearData=function(t){null!=t?delete this._data[t]:this._data=null},t.prototype.getData=function(t){return this._data[t]||""},t.prototype.setData=function(t,e){this._data[t]=e},t.prototype.setDragImage=function(t,e,n){var s=i._instance;s._imgCustom=t,s._imgOffset={x:e,y:n}},t}();t.DataTransfer=e;var i=function(){function t(){if(this._lastClick=0,t._instance)throw"DragDropTouch instance already created.";var e=!1;if(document.addEventListener("test",function(){},{get passive(){return e=!0,!0}}),"ontouchstart"in document){var i=document,n=this._touchstart.bind(this),s=this._touchmove.bind(this),o=this._touchend.bind(this),r=!!e&&{passive:!1,capture:!1};i.addEventListener("touchstart",n,r),i.addEventListener("touchmove",s,r),i.addEventListener("touchend",o),i.addEventListener("touchcancel",o)}}return t.getInstance=function(){return t._instance},t.prototype._touchstart=function(e){var i=this;if(this._shouldHandle(e)){if(Date.now()-this._lastClick<t._DBLCLICK&&this._dispatchEvent(e,"dblclick",e.target))return e.preventDefault(),void this._reset();this._reset();var n=this._closestDraggable(e.target);n&&(this._dispatchEvent(e,"mousemove",e.target)||this._dispatchEvent(e,"mousedown",e.target)||(this._dragSource=n,this._ptDown=this._getPoint(e),this._lastTouch=e,e.preventDefault(),setTimeout(function(){i._dragSource==n&&null==i._img&&i._dispatchEvent(e,"contextmenu",n)&&i._reset()},t._CTXMENU),t._ISPRESSHOLDMODE&&(this._pressHoldInterval=setTimeout(function(){i._isDragEnabled=!0,i._touchmove(e)},t._PRESSHOLDAWAIT))))}},t.prototype._touchmove=function(t){if(this._shouldCancelPressHoldMove(t))this._reset();else if(this._shouldHandleMove(t)||this._shouldHandlePressHoldMove(t)){var e=this._getTarget(t);if(this._dispatchEvent(t,"mousemove",e))return this._lastTouch=t,void t.preventDefault();this._dragSource&&!this._img&&this._shouldStartDragging(t)&&(this._dispatchEvent(t,"dragstart",this._dragSource),this._createImage(t),this._dispatchEvent(t,"dragenter",e)),this._img&&(this._lastTouch=t,t.preventDefault(),e!=this._lastTarget&&(this._dispatchEvent(this._lastTouch,"dragleave",this._lastTarget),this._dispatchEvent(t,"dragenter",e),this._lastTarget=e),this._moveImage(t),this._isDropZone=this._dispatchEvent(t,"dragover",e))}},t.prototype._touchend=function(t){if(this._shouldHandle(t)){if(this._dispatchEvent(this._lastTouch,"mouseup",t.target))return void t.preventDefault();this._img||(this._dragSource=null,this._dispatchEvent(this._lastTouch,"click",t.target),this._lastClick=Date.now()),this._destroyImage(),this._dragSource&&(t.type.indexOf("cancel")<0&&this._isDropZone&&this._dispatchEvent(this._lastTouch,"drop",this._lastTarget),this._dispatchEvent(this._lastTouch,"dragend",this._dragSource),this._reset())}},t.prototype._shouldHandle=function(t){return t&&!t.defaultPrevented&&t.touches&&t.touches.length<2},t.prototype._shouldHandleMove=function(e){return!t._ISPRESSHOLDMODE&&this._shouldHandle(e)},t.prototype._shouldHandlePressHoldMove=function(e){return t._ISPRESSHOLDMODE&&this._isDragEnabled&&e&&e.touches&&e.touches.length},t.prototype._shouldCancelPressHoldMove=function(e){return t._ISPRESSHOLDMODE&&!this._isDragEnabled&&this._getDelta(e)>t._PRESSHOLDMARGIN},t.prototype._shouldStartDragging=function(e){var i=this._getDelta(e);return i>t._THRESHOLD||t._ISPRESSHOLDMODE&&i>=t._PRESSHOLDTHRESHOLD},t.prototype._reset=function(){this._destroyImage(),this._dragSource=null,this._lastTouch=null,this._lastTarget=null,this._ptDown=null,this._isDragEnabled=!1,this._isDropZone=!1,this._dataTransfer=new e,clearInterval(this._pressHoldInterval)},t.prototype._getPoint=function(t,e){return t&&t.touches&&(t=t.touches[0]),{x:e?t.pageX:t.clientX,y:e?t.pageY:t.clientY}},t.prototype._getDelta=function(e){if(t._ISPRESSHOLDMODE&&!this._ptDown)return 0;var i=this._getPoint(e);return Math.abs(i.x-this._ptDown.x)+Math.abs(i.y-this._ptDown.y)},t.prototype._getTarget=function(t){for(var e=this._getPoint(t),i=document.elementFromPoint(e.x,e.y);i&&"none"==getComputedStyle(i).pointerEvents;)i=i.parentElement;return i},t.prototype._createImage=function(e){this._img&&this._destroyImage();var i=this._imgCustom||this._dragSource;if(this._img=i.cloneNode(!0),this._copyStyle(i,this._img),this._img.style.top=this._img.style.left="-9999px",this._img.style.transform="none",!this._imgCustom){var n=i.getBoundingClientRect(),s=this._getPoint(e);this._imgOffset={x:s.x-n.left,y:s.y-n.top},this._img.style.opacity=t._OPACITY.toString()}this._moveImage(e),document.body.appendChild(this._img)},t.prototype._destroyImage=function(){this._img&&this._img.parentElement&&this._img.parentElement.removeChild(this._img),this._img=null,this._imgCustom=null},t.prototype._moveImage=function(t){var e=this;requestAnimationFrame(function(){if(e._img){var i=e._getPoint(t,!0),n=e._img.style;n.position="absolute",n.pointerEvents="none",n.zIndex="999999",n.left=Math.round(i.x-e._imgOffset.x)+"px",n.top=Math.round(i.y-e._imgOffset.y)+"px"}})},t.prototype._copyProps=function(t,e,i){for(var n=0;n<i.length;n++){var s=i[n];t[s]=e[s]}},t.prototype._copyStyle=function(e,i){if(t._rmvAtts.forEach(function(t){i.removeAttribute(t)}),e instanceof HTMLCanvasElement){var n=e,s=i;s.width=n.width,s.height=n.height,s.getContext("2d").drawImage(n,0,0)}for(var o=getComputedStyle(e),r=0;r<o.length;r++){var a=o[r];a.indexOf("transition")<0&&(i.style[a]=o[a])}i.style.pointerEvents="none";for(r=0;r<e.children.length;r++)this._copyStyle(e.children[r],i.children[r])},t.prototype._dispatchEvent=function(e,i,n){if(e&&n){var s=document.createEvent("Event"),o=e.touches?e.touches[0]:e;return s.initEvent(i,!0,!0),s.button=0,s.which=s.buttons=1,this._copyProps(s,e,t._kbdProps),this._copyProps(s,o,t._ptProps),s.dataTransfer=this._dataTransfer,n.dispatchEvent(s),s.defaultPrevented}return!1},t.prototype._closestDraggable=function(t){for(;t;t=t.parentElement)if(t.hasAttribute("draggable")&&t.draggable)return t;return null},t}();i._instance=new i,i._THRESHOLD=5,i._OPACITY=.5,i._DBLCLICK=500,i._CTXMENU=900,i._ISPRESSHOLDMODE=!1,i._PRESSHOLDAWAIT=400,i._PRESSHOLDMARGIN=25,i._PRESSHOLDTHRESHOLD=0,i._rmvAtts="id,class,style,draggable".split(","),i._kbdProps="altKey,ctrlKey,metaKey,shiftKey".split(","),i._ptProps="pageX,pageY,clientX,clientY,screenX,screenY".split(","),t.DragDropTouch=i}(DragDropTouch||(DragDropTouch={}));
+
+    </script>
+    <script>/*! @source http://purl.eligrey.com/github/FileSaver.js/blob/master/FileSaver.js */
+var saveAs=saveAs||function(e){"use strict";if(typeof e==="undefined"||typeof navigator!=="undefined"&&/MSIE [1-9]\./.test(navigator.userAgent)){return}var t=e.document,n=function(){return e.URL||e.webkitURL||e},r=t.createElementNS("http://www.w3.org/1999/xhtml","a"),o="download"in r,a=function(e){var t=new MouseEvent("click");e.dispatchEvent(t)},i=/constructor/i.test(e.HTMLElement)||e.safari,f=/CriOS\/[\d]+/.test(navigator.userAgent),u=function(t){(e.setImmediate||e.setTimeout)(function(){throw t},0)},s="application/octet-stream",d=1e3*40,c=function(e){var t=function(){if(typeof e==="string"){n().revokeObjectURL(e)}else{e.remove()}};setTimeout(t,d)},l=function(e,t,n){t=[].concat(t);var r=t.length;while(r--){var o=e["on"+t[r]];if(typeof o==="function"){try{o.call(e,n||e)}catch(a){u(a)}}}},p=function(e){if(/^\s*(?:text\/\S*|application\/xml|\S*\/\S*\+xml)\s*;.*charset\s*=\s*utf-8/i.test(e.type)){return new Blob([String.fromCharCode(65279),e],{type:e.type})}return e},v=function(t,u,d){if(!d){t=p(t)}var v=this,w=t.type,m=w===s,y,h=function(){l(v,"writestart progress write writeend".split(" "))},S=function(){if((f||m&&i)&&e.FileReader){var r=new FileReader;r.onloadend=function(){var t=f?r.result:r.result.replace(/^data:[^;]*;/,"data:attachment/file;");var n=e.open(t,"_blank");if(!n)e.location.href=t;t=undefined;v.readyState=v.DONE;h()};r.readAsDataURL(t);v.readyState=v.INIT;return}if(!y){y=n().createObjectURL(t)}if(m){e.location.href=y}else{var o=e.open(y,"_blank");if(!o){e.location.href=y}}v.readyState=v.DONE;h();c(y)};v.readyState=v.INIT;if(o){y=n().createObjectURL(t);setTimeout(function(){r.href=y;r.download=u;a(r);h();c(y);v.readyState=v.DONE});return}S()},w=v.prototype,m=function(e,t,n){return new v(e,t||e.name||"download",n)};if(typeof navigator!=="undefined"&&navigator.msSaveOrOpenBlob){return function(e,t,n){t=t||e.name||"download";if(!n){e=p(e)}return navigator.msSaveOrOpenBlob(e,t)}}w.abort=function(){};w.readyState=w.INIT=0;w.WRITING=1;w.DONE=2;w.error=w.onwritestart=w.onprogress=w.onwrite=w.onabort=w.onerror=w.onwriteend=null;return m}(typeof self!=="undefined"&&self||typeof window!=="undefined"&&window||this.content);if(typeof module!=="undefined"&&module.exports){module.exports.saveAs=saveAs}else if(typeof define!=="undefined"&&define!==null&&define.amd!==null){define("FileSaver.js",function(){return saveAs})}
+    </script>
+    <!-- styles-->
+    <style id="base-style">:root {
+    --font-family: lora;
+    --font-size: 1.1em;
+    --editor-background: rgb(240, 248, 255);
+    --panel-width: 420px;
+
+    touch-action: none;
+
+    color: var(--background-text-color, black);
+    background: var(--background-color, white);
+    font-family: var(--font-family, serif);
+    font-size: var(--font-size, 1.1em);
+}
+
+/* prevent weird highlights https://stackoverflow.com/questions/21003535/ */
+.no-select {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* hidden elements should be hidden regardless of their display style */
+[hidden] { display: none !important; }
+
+/* default to width/height including padding and border */
+* { box-sizing: border-box; }
+
+/* used dynamically to prevent or cancel smooth transitions */
+.skip-transition { transition: none !important; }
+
+/* make buttons inherit font */ 
+button { font-family: inherit; font-size: inherit; }
+
+/* clickable things should use this cursor imo */
+button, a, [data-click-to-hide], [data-tab], [data-close-parent-screen] { cursor: pointer; }
+
+/* draggable things get their own cursor */
+[draggable="true"] { cursor: copy !important; }
+
+/* before grab-panning, screen has a grab cursor */
+#pan-screen { cursor: grab; }
+/* while grab-panning, blocker has a grabbing cursor */
+#pan-blocker { cursor: grabbing; }
+
+/* match viewport size, hide anything outside of bounds */
+.full-viewport, html, body, .screen, #pan-screen, #pan-blocker {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    width: 100vw;
+    /* there are caveats to viewport height on mobile
+       https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser */
+    height: calc(var(--vh, 1vh) * 100);
+}
+
+/* default to no margin for card content */
+.card * { margin: 0; }
+
+td { padding: .5em; }
+p { margin-block-start: .75em; margin-block-end: .75em; }
+h2 { margin-block-end: .5em; }
+h2:first-child { margin-block-start: 0; }
+
+.button-list {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.button-list > * {
+    margin: .25em;
+    flex: 1 1 auto;
+}
+
+/* point centered on the middle of the screen. this is the parent of all the 
+   cards and the element that changes when navigating */
+#scene {
+    position: absolute; left: 50%; top: 50%;
+    width: 0; height: 0;
+
+    /* i think this helps streamline the panning by telling the browser that it
+       will be constantly moving
+       https://stackoverflow.com/questions/26907265/css-will-change-how-to-use-it-how-it-works */
+    will-change: transform;
+    transition: transform .2s ease-in-out;
+}
+
+/* generic tabbed pages styles */
+.tab-bar {
+    display: grid;
+    grid-auto-flow: column;
+    color: white;
+    background:black;
+}
+
+.tab-bar > * {
+    padding: 1em;
+    text-align: center;
+}
+
+.tab-bar > *.selected {
+    color: black;
+    background: var(--editor-background);
+}
+
+.tab-page {
+    margin: 0;
+    padding: 2em;
+    overflow: auto;
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+/* end of tabbed pages styles */
+
+/* standard style for text inputs */
+textarea, input[type="text"] {
+    resize: none;
+    border: 1px solid black;
+    padding: .5em;
+    flex: 1;
+
+    font-family: monospace;
+    font-size: inherit;
+}
+
+#board-title {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+#style-input {
+    min-height: 20em;
+}
+
+.editor-page {
+    padding: 1em;
+    height: 100%;
+    display: flex;
+
+    flex-direction: column;
+}
+
+/* editor icons page styles */
+.editor-page[data-page="icons"] {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.icon-select {
+    min-width: 3em;
+    text-align: center;
+    font-size: 1em;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.icon-command {
+    font-size: 1em;
+    font-family: monospace;
+
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+/* end of editor icons page styles */
+
+.card h3 {
+    display: block; 
+    font-size: 1.5em; 
+    font-weight: bold;
+    text-align: center;
+
+    margin-bottom: .5em;
+}
+
+/* tile coordinates display */
+#coords {
+    position: absolute; left: 0; top: 0;
+
+    font-family: monospace;
+    margin: .25em;
+    padding: .25em .5em;
+    border-radius: .75em;
+
+    background: var(--background-color);
+}
+
+/* image display popout */
+#display-image {
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* iframe display popout */
+#display-frame {
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+
+    background: white;
+    margin: 0;
+    padding: 0;
+
+    width: 800px;
+    height: 600px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.screen {
+    background-color: rgb(0, 0, 0, .25);
+}
+
+.full-panel {
+    cursor: auto;
+    padding: 0;
+
+    width: var(--panel-width);
+    height: 100%;
+    max-width: 100%;
+
+    color: black;
+    background-color: var(--editor-background);
+    overflow: hidden;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#content-input {
+    padding: 1em;
+}
+
+#type-select {
+    margin-bottom: 1em;
+    flex: 1;
+}
+
+#type-select > *.selected {
+    filter: invert();
+}
+
+.card {
+    position: absolute;
+
+    transition: transform .2s ease-in-out, opacity .2s ease-in-out;
+
+    width: var(--card-width, 15em);
+    height: var(--card-height, 9em);
+
+    display: flex;
+    margin: 0;
+    word-wrap: break-word;
+
+    background-size: cover;
+}
+
+.card-text {
+    width: 100%;
+    padding: 1em;
+}
+
+.icon-bar {
+    position: absolute;
+    
+    display: grid;
+    gap: .5em;
+    margin: 0;
+}
+
+.icon-bar > * {
+    width: 2em;
+    height: 2em;
+    grid-row: 1;
+
+    padding: 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.card-icon-bar {
+    left: 50%; bottom: 0;
+    transform: translate(-50%, 50%);
+
+    font-size: 1rem;
+    column-gap: .75em;
+}
+
+.card-edit-bar {
+    right: 0; top: 50%;
+    transform: translate(50%, -50%);
+
+    font-size: 1.25em;
+}
+
+.card-edit-bar > * {
+    grid-row: auto;
+    grid-column: 1;
+
+    background: rgb(240, 240, 240);
+    border: 1px solid black;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#link-card {
+    cursor: copy;
+}
+
+.card-icon-bar > * {
+    width: 2em;
+    height: 2em;
+
+    transition: transform .1s ease-in-out;
+}
+
+.card-icon-bar > *:hover  { transform: scale(1.5); }
+.card-icon-bar > *:active { transform: scale(2);   }
+/* don't animate cosmetic card icons */
+.card-icon-bar > *.cosmetic { cursor: initial; transform: unset; }
+/* don't respond to blank card icons */
+.card-icon-bar > *.blank { pointer-events: none; transform: unset; }
+
+/* main toolbar */
+#toolbar {
+    left: 50%; bottom: 0;
+    transform: translate(-50%, 0);
+    
+    font-size: 1.5em;
+    padding: .5em;
+}
+
+/* main toolbar buttons */
+#toolbar > * {
+    background: rgb(240, 240, 240);
+    border: 1px solid black;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#editor-preview {
+    width: 100%;
+    height: calc(var(--card-height) * 2);
+    min-height: calc(100% - var(--card-height) * 2);
+}
+
+#editor-section {
+    position: absolute; left: 50%; bottom: 0;
+    transform: translateX(-50%);
+
+    background: var(--editor-background);
+    pointer-events: initial;
+    cursor: initial;
+
+    width: 400px;
+    max-width: 100%;
+    height: calc(100% - var(--card-height) * 2);
+    max-height: calc(var(--card-height) * 2);
+
+    display: flex;
+    flex-direction: column;
+}
+
+    </style>
+    <style id="user-style">:root {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAACgCAMAAACsXRuGAAAADFBMVEWIiIjd3d3y8vLm5uZzdc63AAAAbklEQVR42u3ZIQ4AIAwDwI39/8/wAlTFxFUgm5ALmFZV51Iv52Vyx/7CzhdONr3/ylCgQIECBQoUKFCgQIECBQoUKFCgQIECBcrmccGe4qX4vqBAgQIFChQoUKBAgQIFChQoUKBAgQIFij3lX3gBXBBzc8FaGvIAAAAASUVORK5CYII=);
+    --background-color: rgb(255, 245, 209);
+    --background-text-color: black;
+
+    --card-width: 15rem;
+    --card-height: 9rem;
+    --card-gap-horizontal: 2em;
+    --card-gap-vertical: 2em;
+}
+
+/* base style for cards */
+.card {
+    background-color: white;
+    color: black;
+    /* tiny curve on corners */
+    border-radius: .5em;
+    /* thick black line below */
+    border-bottom: 3px solid black;
+}
+
+.card.has-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    /* white text with black outline */
+    color: white;
+    text-shadow: 
+         1px  1px 1px black,
+        -1px  1px 1px black,
+        -1px -1px 1px black,
+         1px -1px 1px black;
+}
+
+/* cut off any text that goes outside the bounds of the card */
+.card-text {
+    overflow: hidden;
+}
+
+/* custom card styles */
+.domino-card-basic-thistle   { 
+    background-color: rgb(222, 197, 227); 
+}
+
+.domino-card-basic-columbia-blue { 
+    background-color: rgb(205, 237, 253); 
+}
+
+.domino-card-basic-uranian-blue  { 
+    background-color: rgb(182, 220, 254); 
+}
+
+.domino-card-basic-celeste {
+    background-color: rgb(169, 248, 251);
+}
+
+.domino-card-basic-turquoise-blue {
+    background-color: rgb(129, 247, 229);
+}
+
+.domino-card-heading { 
+    background-color: #F3E9C7;
+    align-items: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* border from http://todrobbins.com/broider-gallery/ */
+.domino-card-broider-example {
+    background-color: transparent;
+    border-style: solid;
+    border-width: .5em;
+    align-items: center;
+    text-align: center;
+    font-family: monospace;
+    box-sizing: content-box;
+    border-image:  url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAABaElEQVR4nO2WQQ7DMAzD+v9Pbz9oQVhRs4wEclMci4ei13Vdn/JpU++nUIUiFBpmO6HpAmkBq/fB8xTKUOjwPp6nUAYWSgdO81QgFVTvp9BwXqHhvELD+XRhuuB03ur38XyFKlShCr0hnaeF0kLjeYWG8woN5xUaztMF6QPTBVfPozzOUyhDocP7eJ5CGWOh6dOm3k+hCkUoNMzp/URE/orTP8r1fgpVKEKhYZb3O/1Ht95PoQpFKDTMdkKn+bep91PoLP/+g2UUGmY7ofTsRr2fQhWKUGiY1/v9usAn6v0UqlCEQsOc3k9E5KdI/+ju9lGv91OoQhEKDbOd0HSBtIDV++B5CmUodHgfz1MoAwulA6d5KpAKqvdTaDiv0HBeoeF8ujBdcDpv9ft4vkIVqlCF3pDO00JpofG8QsN5hYbzCg3n6YL0gemCq+dRHucplKHQ4X08T6GMsdD0aVPvp1CFIhQaptrvC1EVM4TVl2v7AAAAAElFTkSuQmCC") 28 /  1em / 0 round;
+}
+
+/* custom bold style */
+.domino-card-broider-example strong {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1.5em;
+}
+
+/* adding halo around icons */
+.domino-card-broider-example > .card-icon-bar > *:not(.blank) {
+    text-shadow: 
+        0 0 5px var(--background-color),
+        0 0 5px var(--background-color),
+        0 0 5px var(--background-color),
+        0 0 5px var(--background-color);
+}
+
+    </style>
+    <!-- scripts-->
+    <script>'use strict'
+
+const ONE = (query, element) => (element || document).querySelector(query);
+const ALL = (query, element) => Array.from((element || document).querySelectorAll(query));
+
+const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+const makeCounter = (count=0) => () => count++;
+const remToPx = em => emToPx(document.documentElement, em);
+const emToPx = (element, em) => Math.round(em * parseFloat(getComputedStyle(element).fontSize));
+const setElementJsonData = (element, data) => queryToElement(element).innerHTML = JSON.stringify(data);
+const getElementJsonData = (element) => JSON.parse(queryToElement(element).innerHTML);
+const reflow = element => void(element.offsetHeight);
+const coordsToKey = (coords) => coords.join(',');
+
+const add = (a, b) => [a[0] + b[0], a[1] + b[1]];
+const sub = (a, b) => [a[0] - b[0], a[1] - b[1]];
+const sqr = a => a[0] * a[0] + a[1] * a[1];
+const sqrdist = (a, b) => sqr(sub(a, b));
+
+function say(text) {
+    const utter = new SpeechSynthesisUtterance(text);
+    window.speechSynthesis.speak(utter);
+}
+
+function toggleFullscreen() {
+    if (document.fullscreenElement) {
+        return document.exitFullscreen();
+    } else {
+        return document.documentElement.requestFullscreen({ navigationUI: 'hide' });
+    }
+}
+
+async function textFromFile(file) {
+    return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onerror = reject;
+        reader.onload = () => resolve(reader.result);
+        reader.readAsText(file); 
+    });
+}
+
+async function dataURLFromFile(file) {
+    return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        reader.onerror = reject;
+        reader.onload = () => resolve(reader.result);
+        reader.readAsDataURL(file); 
+    });
+}
+
+function filesFromDataTransfer(dataTransfer) {
+    const clipboardFiles = 
+        Array.from(dataTransfer.items || [])
+        .filter(item => item.kind === 'file')
+        .map(item => item.getAsFile());
+    return clipboardFiles.concat(...(dataTransfer.files || []));
+}
+
+function elementFromDataTransfer(dataTransfer) {
+    const html = dataTransfer.getData('text/html');
+    return html && stringToElement(html);
+}
+
+async function compressImageURL(url, quality, size) {
+    const image = document.createElement("img");
+    image.crossOrigin = true;
+    const canvas = document.createElement("canvas");
+
+    const [tw, th] = size;
+    canvas.width = tw;
+    canvas.height = th;
+
+    return new Promise((resolve, reject) => {
+        image.onload = () => {
+            const scale = Math.max(tw / image.width, th / image.height);
+            const [fw, fh] = [image.width * scale, image.height * scale];
+            const [ox, oy] = [(tw - fw)/2, (th - fh)/2];
+
+            const context = canvas.getContext('2d');
+            context.drawImage(image, ox, oy, fw, fh);
+            const url = canvas.toDataURL('image/jpeg', quality);
+
+            console.log(`${url.length}B`);
+            resolve(url);
+        };
+        image.onerror = () => resolve(undefined);
+        image.src = url;
+    });
+}
+
+function randomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+function killEvent(event) {
+    event.stopPropagation();
+    event.preventDefault();
+}
+
+function eventToElementPixel(event, element) {
+    const rect = element.getBoundingClientRect();
+    return [event.clientX - rect.x, event.clientY - rect.y];
+}
+
+function getElementCenter(element) {
+    return [element.clientWidth / 2, element.clientHeight / 2];
+}
+
+function getElementCenterClient(element) {
+    const rect = element.getBoundingClientRect();
+    return [rect.x + rect.width / 2, rect.y + rect.height / 2];
+}
+
+function queryToElement(query) {
+    return (query instanceof Element) ? query : ONE(query);
+}
+
+function cloneTemplateElement(query) {
+    const template = queryToElement(query);
+    const clone = template.cloneNode(true);
+    clone.removeAttribute('id');
+    return clone;
+}
+
+function addListener(query, type, listener) {
+    queryToElement(query).addEventListener(type, listener);
+}
+
+function chunkedForeach(array, interval, callback) {
+    return new Promise((resolve, reject) => {
+        let deadline = performance.now() + interval;
+        let index = 0;
+
+        const doChunk = () => {
+            for (; index < array.length && performance.now() < deadline; ++index)
+                callback(array[index]);
+            deadline = performance.now() + interval;
+            if (index < array.length)
+                window.requestAnimationFrame(doChunk);
+            else
+                resolve()
+        };
+
+        window.requestAnimationFrame(doChunk);
+    });
+}
+
+class CoordStore {
+    constructor() { this.store = new Map(); }
+    get size() { return this.store.size; }
+    get(coords) { return this.store.get(coordsToKey(coords)); }
+    set(coords, value) { return this.store.set(coordsToKey(coords), value); }
+    delete(coords) { return this.store.delete(coordsToKey(coords)); }
+    has(coords) { return this.store.has(coordsToKey(coords)); }
+}
+
+// based on https://www.redblobgames.com/grids/hexagons/
+class HexGrid {
+    constructor(cellSize) {
+        this.cellSize = cellSize;
+    }
+
+    cellToPixel(cellCoords) {
+        const [q, r] = cellCoords;
+        const [w, h] = this.cellSize;
+
+        const x = q * w;
+        const y = (r + q / 2) * h;
+        return [x, y];
+    }
+
+    pixelToCell(pixelCoords) {
+        const [x, y] = pixelCoords;
+        const [w, h] = this.cellSize;
+        // pixel to axial coordinates
+        const q = x / w;
+        const r = y / h - q / 2;
+        // convert axial to cube coordinates
+        const [cx, cy, cz] = [q, r, -q-r];
+        // determine rounding error
+        let [rx, ry, rz] = [cx, cy, cz].map(Math.round);
+        const [dx, dy, dz] = [rx - cx, ry - cy, rz - cz].map(Math.abs);
+        // recompute worst coordinate from others
+        if (dx > dy && dx > dz) {
+            rx = -ry-rz
+        } else if (dy > dz) {
+            ry = -rx-rz
+        } else {
+            rz = -rx-ry
+        }
+        // return axial components
+        return [rx, ry];
+    }
+}
+
+function listen(element, type, listener) {
+    element.addEventListener(type, listener);
+    return () => element.removeEventListener(type, listener);
+}
+
+    </script>
+    <script>'use strict';
+
+const cardStyleRegex = /\.domino-card-([a-zA-Z0-9-_]+)/;
+function findCardStyleNames() {
+    const styles = new Set();
+    Array.from(document.styleSheets).forEach(sheet => {
+        try {
+            for (const rule of sheet.cssRules) {
+                const names = rule.selectorText.match(cardStyleRegex);
+                if (names)
+                    styles.add(names[1]);
+            }
+        } catch (e) {}
+    });
+    return Array.from(styles);
+}
+
+function fakedownToTag(text, fd, tag) {
+    const pattern = new RegExp(`${fd}([^${fd}]+)${fd}`, 'g');
+    return text.replace(pattern, `<${tag}>$1</${tag}>`);
+}
+
+function parseFakedown(text) {
+    if (text.startsWith('`'))
+        return `<pre>${text.slice(1)}</pre>`;
+    text = text.replace(/([^-])--([^-])/g, '$1—$2');
+    text = fakedownToTag(text, '##', 'h3');
+    text = fakedownToTag(text, '~~', 's');
+    text = fakedownToTag(text, '__', 'strong');
+    text = fakedownToTag(text, '\\*\\*', 'strong');
+    text = fakedownToTag(text, '_', 'em');
+    text = fakedownToTag(text, '\\*', 'em');
+    text = text.replace(/\n/g, '<br>');
+    return text;
+}
+
+let pageSetters = new Map();
+const clicks = ['pointerdown', 'pointerup', 'click', 'wheel', 'dblclick'];
+function setupClassHooks() {
+    ALL('[data-block-clicks]').forEach(element => {
+        for (let name of clicks)
+            element.addEventListener(name, event => event.stopPropagation());
+    });
+    ALL('[data-click-to-hide]').forEach(element => {
+        element.addEventListener('pointerdown', () => element.hidden = true);
+        for (let name of clicks)
+            element.addEventListener(name, event => event.stopPropagation());
+    });
+    ALL('[data-close-parent-screen]').forEach(element => {
+        const screen = element.closest('.screen');
+        element.addEventListener('click', () => screen.hidden = true);
+        element.addEventListener('pointerdown', () => screen.hidden = true);
+    });
+
+    ALL('button').forEach(element => {
+        if (!element.draggable)
+            for (let name of clicks)
+                element.addEventListener(name, event => event.stopPropagation());
+    })
+
+    const tabsets = new Set(
+        ALL('[data-tab-set]')
+        .map(element => element.getAttribute('data-tab-set'))
+    );
+
+    tabsets.forEach(tabset => {
+        const pages = new Map();
+        const tabs = new Map();
+
+        const setPage = pageName => {
+            for (let tab of tabs.values())
+                tab.classList.remove('selected');
+            for (let page of pages.values())
+                page.hidden = true;
+
+            tabs.get(pageName).classList.add('selected');
+            pages.get(pageName).hidden = false;
+        };
+
+        pageSetters.set(tabset, setPage);
+
+        ALL(`[data-tab][data-tab-set="${tabset}"]`).forEach(element => {
+            const pageName = element.getAttribute('data-tab');
+            tabs.set(pageName, element);
+            element.addEventListener('click', () => setPage(pageName));
+        });
+
+        ALL(`[data-page][data-tab-set="${tabset}"]`).forEach(element => {
+            const pageName = element.getAttribute('data-page');
+            pages.set(pageName, element);
+        });
+    });
+}
+
+function updateDocumentVariables() {
+    const vh = window.innerHeight / 100;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+
+function computeCardSize(parent) {
+    const testCard = cloneTemplateElement('#card-template');
+    parent.appendChild(testCard);
+    const size = [testCard.clientWidth, testCard.clientHeight];
+    parent.removeChild(testCard);
+    return size;
+}
+
+function computeCardGap() {
+    const measure = document.createElement('div');
+    measure.style = 'width: var(--card-gap-horizontal, 0); height: var(--card-gap-vertical, 0);';
+    document.documentElement.appendChild(measure);
+    const rect = measure.getBoundingClientRect();
+    document.documentElement.removeChild(measure);
+    return [rect.width, rect.height];
+}
+
+function stringToDocument(string) {
+    const template = document.createElement('template');
+    template.innerHTML = string;
+    return template.content;
+}
+
+function stringToElement(string) {
+    return stringToDocument(string).children[0];
+}
+
+async function htmlFromUrl(url) {
+    const source = await (await fetch(url)).text();
+    return stringToDocument(source);
+}
+
+async function htmlFromFile(file) {
+    const source = await textFromFile(file);
+    const html = stringToDocument(source);
+    return html;
+}
+
+async function extractDataFromHtmlFile(file) {
+    const source = await textFromFile(file);
+    const html = stringToElement(source);
+    return getElementJsonData(ONE('#data', html));
+}
+
+async function fileToCompressedImage(file) {
+    const url = await dataURLFromFile(file);
+    const dataURL = await compressImageURL(url, 0.2, domino.cardSize);
+    return dataURL;
+}
+
+async function dataTransferToImage(dt) {
+    const files = filesFromDataTransfer(dt);
+    const element = elementFromDataTransfer(dt);
+    const originURL = element && element.src; 
+    if (files.length > 0) {
+        const dataURL = await fileToCompressedImage(files[0]);
+        return { dataURL, originURL };
+    } else if (element && element.nodeName === 'IMG') {
+        const dataURL = await compressImageURL(element.src, .2, domino.cardSize);
+        return { dataURL, originURL };
+    }
+}
+
+function projectToHTML() {
+    setElementJsonData('#data', domino.getData());
+    const clone = document.documentElement.cloneNode(true);
+    ALL('[data-export-clear]', clone).forEach(element => element.innerHTML = '');
+    ALL('[data-export-hide]', clone).forEach(element => element.hidden = true);
+    const html = clone.outerHTML;
+    const title = ONE('title').innerHTML;
+    const name = title.replace(/[^a-z0-9]/gi, '_').toLowerCase();
+    return { html, name };
+}
+
+function exportProject() {
+    const { html, name } = projectToHTML();
+    const blob = new Blob([html], {type: "text/html"});
+    saveAs(blob, `${name}.html`);
+}
+
+function getCoordsFromHash() {
+    try {
+        const coords = location.hash.slice(1).split(',').map(i => parseInt(i) || 0);
+        if (coords.length === 2) return coords;
+    } catch(e) {}
+
+    return [0, 0];
+}
+
+class Domino {
+    constructor() {
+        this.cellToView = new CoordStore();
+        this.focusedCell = [0, 0];
+        this._focus = [0, 0];
+        this._scaling = 1;
+        this.selectedCardView = undefined;
+    }
+
+    play(url) {
+        if (this.audio) this.audio.pause();
+        this.audio = new Audio(url)
+        this.audio.play();
+    }
+
+    display(url, size=[800, 600]) {
+        const frame = ONE('#display-frame');
+        const [w, h] = size;
+        ONE('#display-screen').hidden = false;
+        frame.onerror = () => window.open(url);
+        frame.src = url;
+        frame.style.width = w;
+        frame.style.height = h;
+    }
+
+    async runCommand(command) {
+        if (command.startsWith('#')) {
+            location.href = command;
+            domino.focusCell(getCoordsFromHash());
+        } else if (command.startsWith('jump:')) {
+            location.href = '#' + command.slice(5);
+            domino.focusCell(getCoordsFromHash());
+        } else if (command.startsWith('open:')) {
+            window.open(command.slice(5));
+        } else if (command.startsWith('display:')) {
+            const src = command.slice(8);
+            this.display(src);
+        } else if (command.startsWith('play:')) {
+            this.play(command.slice(5));
+        } else if (command.startsWith('import:')) {
+            const src = command.slice(7);
+            const html = await htmlFromUrl(src);
+            this.setFromHtml(html);
+        } else if (command.length > 0) {
+            window.open(command);
+        }
+    }
+
+    set focus(focus) {
+        this._focus = focus;
+        this.refreshTransform();
+        this.refreshHash();
+    }
+
+    get focus() {
+        return this._focus;
+    }
+
+    set scale(scaling) {
+        this._scaling = scaling;
+        this.refreshTransform();
+    }
+
+    get scale() {
+        return this._scaling;
+    }
+
+    haltPanningTransition() {
+        if (this.scene.classList.contains('skip-transition')) 
+            return;
+
+        this.scene.style.transform = window.getComputedStyle(this.scene).transform;
+        this.scene.classList.add('skip-transition');
+        reflow(this.scene);
+        this.scene.classList.remove('skip-transition');
+        reflow(this.scene);
+    }
+
+    refreshTransform() {
+        let [x, y] = this._focus;
+        x = Math.round(x);
+        y = Math.round(y);
+        const s = this._scaling;
+        this.scene.style.transform = `scale(${s}) translate(${-x}px, ${-y}px)`;
+    }
+
+    refreshHash() {
+        const [q, r] = this.grid.pixelToCell(this.focus);
+        this.focusedCell = [q, r];
+        this.coords.innerHTML = `#${q},${r}`;
+
+        if (this.pan) return;
+        history.pushState({}, "", `#${q},${r}`)
+    }
+
+    focusCell(cell) {
+        if (this.pan) return;
+        this.haltPanningTransition();
+        this.focus = this.grid.cellToPixel(cell);
+        this.selectCardView(this.cellToView.get(cell));
+    }
+
+    focusCellNoTransition(coords) {
+        this.scene.classList.add('skip-transition');
+        this.focusCell(coords);
+        reflow(this.scene);
+        this.scene.classList.remove('skip-transition');
+    }
+
+    getOrSpawnCard(cell) {
+        const blankCard = { cell, text: '', type: domino.editorScreen.types[0], icons: [] };
+        return domino.cellToView.get(cell) || domino.spawnCard(blankCard);
+    }
+
+    spawnCard(card) {
+        const view = this.addCard(card);
+        view.transition = false;
+        reflow(view.root);
+        view.transition = true;
+        view.triggerSpawnAnimation();
+        return view;
+    }
+
+    addCard(card) {
+        const view = new CardView(card);
+
+        view.root.addEventListener('pointerdown', e => this.onCardPointerDown(view, e));
+        view.root.addEventListener('click', e => this.selectCardView(view));
+        view.root.addEventListener('dblclick', e => this.onCardClick(view, e));
+        view.root.addEventListener('dragstart', e => this.onCardDragStart(view, e));
+
+        this.scene.appendChild(view.root);
+        this.moveCardToCell(view, card.cell);
+    
+        return view;
+    }
+
+    removeCard(view) {
+        this.scene.removeChild(view.root);
+        this.cellToView.delete(view.cell);
+
+        if (this.editorScreen.activeView === view)
+            this.editorScreen.setActiveView(undefined);
+    }
+
+    moveCardToCell(view, cell) {
+        view.card.cell = cell;
+        view.position = this.grid.cellToPixel(cell);
+        this.cellToView.set(cell, view);
+    }
+
+    swapCells(a, b) {
+        const aView = this.cellToView.get(a);
+        const bView = this.cellToView.get(b);
+    
+        this.cellToView.delete(a);
+        this.cellToView.delete(b);
+    
+        if (aView)
+            this.moveCardToCell(aView, b);
+        if (bView)
+            this.moveCardToCell(bView, a);
+    }
+
+    refreshStyle() {
+        this.editorScreen.refreshAvailableStyles();
+        const [cw, ch] = computeCardSize(this.scene);
+        const [sw, sh] = computeCardGap();
+        this.cardSize = [cw, ch];
+        this.grid = new HexGrid([cw + sw, ch + sh]);
+
+        this.cellToView.store.forEach(view => {
+            this.moveCardToCell(view, view.card.cell);
+        });
+
+        this.styleInput.value = ONE('#user-style').innerHTML;
+    }
+
+    pointerEventToGridPixel(event) {
+        const [x, y] = eventToElementPixel(event, this.scene);
+        const pixel = [x / this.scale, y / this.scale];
+        return pixel;
+    }
+
+    pointerEventToCell(event) {
+        const pixel = this.pointerEventToGridPixel(event);
+        return this.grid.pixelToCell(pixel);
+    }
+
+    clear() {
+        this.deselect();
+        this.scene.innerHTML = "";
+        this.cellToView.store.clear();
+    }
+
+    setFromHtml(html) {
+        const style = ONE('#user-style', html).innerHTML;
+        const data = JSON.parse(ONE('#data', html).innerHTML);
+        ONE('title').innerHTML = ONE('title', html).innerHTML;
+        ONE('#user-style').innerHTML = style;
+        this.refreshStyle();
+        this.setData(data);
+    }
+
+    setData(data) {
+        ONE('#load-screen').hidden = false;
+        this.clear();
+        data.cards.sort((a, b) => sqrdist(a.cell, this.focusedCell) - sqrdist(b.cell, this.focusedCell));
+        const loadCard = card => this.addCard(card).transition = false;
+        chunkedForeach(data.cards, 30, loadCard)
+        .then(() => sleep(1))
+        .then(() => {
+            for (let view of this.cellToView.store.values())
+                view.transition = true;
+            ONE('#load-screen').hidden = true;
+        });
+    }
+
+    getData() {
+        const views = Array.from(this.cellToView.store.values());
+        const cards = views.map(view => view.card);
+        return { cards };
+    }
+
+    setup() {
+        this.editorScreen = new CardEditor();
+        this.editorPreview = ONE('#editor-preview');
+        this.scene = ONE('#scene');
+        this.coords = ONE('#coords');
+        
+        this.styleInput = ONE('#style-input');
+        this.refreshStyle();
+
+        // hide fullscreen button if fullscreen is not possible
+        if (!document.fullscreenEnabled)
+            ONE('#fullscreen').hidden = true;
+
+        this.cardbar = cloneTemplateElement('#cardbar-template');
+        this.cardbar.id = 'cardbar';
+        this.cardbar.hidden = false;
+        this.addDeleteCardIcon = ONE('#add-delete-icon');
+        this.aboutScreen = ONE('#menu-screen');
+        this.lockedButton = ONE('#locked');
+        this.unlockedButton = ONE('#unlocked');
+
+        addListener(this.lockedButton,   'click', () => this.setUnlocked(true));
+        addListener(this.unlockedButton, 'click', () => this.setUnlocked(false));
+
+        const cardEditButton = ONE('#edit-card', this.cardbar);
+        const cardLinkButton = ONE('#link-card', this.cardbar);
+        const importFile = ONE('#import-file');
+        const screen = ONE('#pan-screen');
+
+        const onClickedCell = (event) => {
+            if (this.pan) return;
+            if (event.button && event.button === 2) 
+                return;
+            killEvent(event);
+            this.deselect();
+            this.focusCell(this.pointerEventToCell(event));
+            if (this.unlocked)
+                this.editFocusedCell();
+            this.scale = 1;
+        }
+
+        const title = ONE('title');
+        const boardTitle = ONE('#board-title');
+        const twitterTitle = ONE('#twitter-title');
+        boardTitle.addEventListener('input', () => {
+            title.innerHTML = boardTitle.value;
+            twitterTitle.setAttribute('value', boardTitle.value);
+        });
+        boardTitle.value = title.innerHTML;
+
+        this.styleInput.addEventListener('input', () => {
+            ONE('#user-style').innerHTML = this.styleInput.value;
+            this.refreshStyle();
+        });
+
+        // clicking listeners
+        addListener(cardEditButton, 'click', e => { killEvent(e); this.editCardView(this.selectedCardView); });
+        addListener('#center',      'click', e => { killEvent(e);  this.focusCell([0, 0]); });
+        addListener('#open-about',  'click', e => { killEvent(e);  this.aboutScreen.hidden = false; });
+        addListener('#reset',       'click', e => this.clear());
+        addListener('#import',      'click', e => importFile.click());
+        addListener('#export',      'click', e => exportProject());
+        addListener('#fullscreen',  'click', e => toggleFullscreen());
+
+        const panBlocker = ONE('#pan-blocker');
+
+        this.pan = undefined;
+        this.touches = new Map();
+        
+        addListener('#zoom', 'click', event => {
+            this.toggleZoom();
+            killEvent(event);
+        });
+
+        const onDown = event => {
+            this.pan = {
+                scenePosition: this.pointerEventToGridPixel(event),
+                pointerId: event.pointerId,
+            };
+            this.scene.classList.add('skip-transition');
+            panBlocker.hidden = false;
+            event.stopPropagation();
+        };
+
+        panBlocker.addEventListener('pointerdown', onDown);
+        window.addEventListener('pointerdown', onDown);
+        
+        window.addEventListener('dblclick', () => onClickedCell(event));
+
+        const onDonePanning = event => {
+            panBlocker.hidden = true;
+            this.pan = undefined;
+            this.scene.classList.remove('skip-transition');
+            event.stopPropagation();
+            this.refreshHash();
+        };
+
+        panBlocker.addEventListener('pointerup', onDonePanning);
+        window.addEventListener('pointerup', onDonePanning);
+        
+        const onMove = event => {
+            if (!this.pan) return;
+
+            // where we clicked in the scene
+            const [sx, sy] = this.pan.scenePosition;
+            // where we are in the scene now
+            const [ax, ay] = this.pointerEventToGridPixel(event);
+            // the error
+            const [dx, dy] = [sx - ax, sy - ay];
+            const [fx, fy] = this.focus;
+            this.focus = [fx + dx, fy + dy];
+
+            killEvent(event);
+        };
+
+        panBlocker.addEventListener('pointermove', onMove);
+        window.addEventListener('pointermove', onMove);
+
+        // file select listener
+        addListener(importFile, 'change', async event => {
+            const html = await htmlFromFile(event.target.files[0]);
+            this.setFromHtml(html);
+            importFile.value = "";
+        });
+
+        const setElementDragoverDropEffect = (query, effect) => {
+            addListener(query, 'dragover', event => {
+                killEvent(event);
+                event.dataTransfer.dropEffect = this.unlocked ? effect : 'none';
+            });
+        }
+
+        // dragging and dropping listeners
+        setElementDragoverDropEffect(screen, 'copy');
+        setElementDragoverDropEffect(this.editorScreen.root, 'none');
+        setElementDragoverDropEffect(cardLinkButton, 'move');
+
+        const onDragFromLinkCard = (event) => {
+            const cell = this.selectedCardView.card.cell;
+            event.dataTransfer.setData('text/uri-list', 'jump:' + coordsToKey(cell));
+            event.stopPropagation();
+        }
+
+        const onDragFromNewCard = (event) => {
+            event.stopPropagation();
+            event.dataTransfer.setData('text/plain', 'new card');
+        }
+
+        const onDroppedOnDelete = (event) => {
+            killEvent(event);
+            if (!event.dataTransfer.types.includes('card/move')) return;
+            const originJson = event.dataTransfer.getData('card-origin-cell');
+            const view = this.cellToView.get(JSON.parse(originJson));
+            this.removeCard(view);
+        }
+        
+        setElementDragoverDropEffect(this.addDeleteCardIcon, 'move');
+        addListener(this.addDeleteCardIcon, 'dragstart', onDragFromNewCard);
+        addListener(this.addDeleteCardIcon, 'drop',      onDroppedOnDelete);
+        addListener(this.addDeleteCardIcon, 'pointerdown', event => event.stopPropagation());
+
+        const onDroppedOnCell = async (event) => {
+            killEvent(event);
+            const dropCell = this.pointerEventToCell(event);
+            const dt = event.dataTransfer;
+
+            const image = await dataTransferToImage(event.dataTransfer);
+            const urilist = dt.getData('text/uri-list');
+
+            let view;
+
+            if (image) {
+                view = this.putImageInCell(dropCell, image);
+            } else if (dt.types.includes('card/copy')) {
+                const originJson = dt.getData('card-origin-cell');
+                const originCell = JSON.parse(originJson);
+                const original = this.cellToView.get(originCell).card;
+                const copy = JSON.parse(JSON.stringify(original));
+                copy.cell = dropCell;
+                this.spawnCard(copy);
+            } else if (dt.types.includes('card/move')) {
+                const originJson = dt.getData('card-origin-cell');
+                const originCell = JSON.parse(originJson);
+                view = this.swapCells(originCell, dropCell);
+            } else if (urilist) {
+                const uris = urilist.split('\n').filter(uri => !uri.startsWith('#'));
+                const commands = uris.map(uri => uri.startsWith('jump:') ? uri : 'open:' + uri);
+                const icons = commands.map(command => { return {icon: '🔗', command}; });
+                view = this.putIconsInCell(dropCell, ...icons);
+            } else {
+                const text = dt.getData('text') || dt.getData('text/plain');
+                if (text)
+                view = this.putTextInCell(dropCell, text);
+            }
+
+            if (view)
+                this.selectCardView(view);
+        }
+
+        addListener(cardLinkButton, 'dragstart', onDragFromLinkCard);
+        addListener(this.editorScreen.root, 'drop', killEvent);
+        addListener(screen,                 'drop', onDroppedOnCell);
+
+        addListener('#coords', 'pointerdown', e => e.stopPropagation());
+        addListener('#coords', 'dragstart', event => {
+            event.dataTransfer.setData('text/uri-list', 'jump:' + location.hash.slice(1));
+            event.stopPropagation();
+        });
+    }
+
+    setUnlocked(unlocked) {
+        this.unlocked = unlocked;
+
+        ALL('[data-locked-visibility]').forEach(element => {
+            const hidden = element.getAttribute('data-locked-visibility') === 'hidden';
+            element.hidden = (hidden === !unlocked);
+        });
+
+        ALL('[data-card]').forEach(element => {
+            element.setAttribute('draggable', unlocked ? 'true' : 'false');
+        });
+    }
+    
+    deselect() { this.selectCardView(undefined); }
+
+    editStyle() {
+        this.aboutScreen.hidden = true;
+        ONE('#about-screen').hidden = false;
+        this.styleInput.value = ONE('#user-style').innerHTML;
+        this.styleInput.focus();
+    }
+
+    editFocusedCell() {
+        const view = this.getOrSpawnCard(this.focusedCell);
+        this.editCardView(view);
+    }
+
+    editCardView(view) {
+        if (!this.selectCardView) return;
+        this.editorScreen.hidden = false;
+        this.editorScreen.setActiveView(view);
+        this.focusCell(view.cell, this.editorPreview);
+    }
+
+    selectCardView(view) {
+        this.selectedCardView = view;
+
+        if (view) {
+            view.root.appendChild(this.cardbar);
+            this.cardbar.hidden = !this.unlocked
+        } else if (this.cardbar.parentElement)
+            this.cardbar.parentElement.removeChild(this.cardbar);
+    }
+
+    onCardPointerDown(view, event) {
+        if (!this.unlocked || event.button === 1) return;
+        event.stopPropagation();
+    }
+
+    onCardClick(view, event) {
+        if (!this.unlocked) return;
+        killEvent(event);
+        this.selectCardView(view);
+        this.focusCell(view.cell);
+        this.scale = 1;
+        this.editFocusedCell();
+    }
+
+    onCardDragStart(view, event) {
+        if (!this.unlocked) return;
+
+        event.stopPropagation();
+        event.dataTransfer.setData('card-origin-cell', JSON.stringify(view.cell));
+        event.dataTransfer.setData('text/plain', view.card.text);
+        event.dataTransfer.setData(event.ctrlKey ? 'card/copy' : 'card/move', '');
+
+        const [x, y] = getElementCenter(view.root);
+        event.dataTransfer.setDragImage(view.root, x, y);
+    }
+
+    putImageInCell(cell, image) {
+        const view = this.getOrSpawnCard(cell);
+        view.card.image = image.dataURL;
+        if (image.originURL)
+            this.putIconsInCell(cell, {icon: '🔗', command: 'open:' + image.originURL});
+        view.refresh();
+        return view;
+    }
+
+    putIconsInCell(cell, ...rows) {
+        const view = this.getOrSpawnCard(cell);
+        view.card.icons = view.card.icons || [];
+        for (let i = 0; i < 4; ++i) {
+            if (view.card.icons.length === i)
+                view.card.icons.push({icon: '', command: ''});
+            if (view.card.icons[i].icon === '' && rows.length > 0)
+                view.card.icons[i] = rows.shift();
+        }
+        view.refresh();
+        return view;
+    }
+
+    putTextInCell(cell, text) {
+        const view = this.getOrSpawnCard(cell);
+        view.card.text += text;
+        view.refresh();
+        return view;
+    }
+
+    toggleZoom() {
+        this.scale = 1.5 - this.scale;
+    }
+}
+
+class CardEditor {
+    constructor() {
+        this.root = ONE('#editor-screen');
+        this.contentInput = ONE('#content-input', this.root);
+        this.typeSelect = ONE('#type-select');
+        this.typeButtons = {};
+
+        this.refreshAvailableStyles();
+
+        this.iconRows = [];
+
+        const refreshIcons = () => {
+            const icons = [];
+            this.iconRows.forEach(row => {
+                icons.push({
+                    icon: row.select.value,
+                    command: row.command.value,
+                });
+            });
+            this.activeView.card.icons = icons;
+            this.activeView.refresh();
+        }
+
+        for (let row of [1, 2, 3, 4]) {
+            const select = ONE(`#editor-icon-select-${row}`, this.root);
+            const command = ONE(`#editor-icon-command-${row}`, this.root);
+            this.iconRows.push({ select, command });
+            addListener(select, 'input', () => refreshIcons());
+            addListener(command, 'input', () => refreshIcons());
+        }
+
+        this.contentInput.addEventListener('input', () => {
+            if (!this.activeView) return;
+
+            this.activeView.card.text = this.contentInput.value;
+            this.activeView.refresh();
+        });
+
+        this.altTextInput = ONE('#alt-text');
+        this.altTextInput.addEventListener('input', () => {
+            this.activeView.card.alt = this.altTextInput.value;
+            this.refreshFromCard();
+        });
+
+        addListener('#remove-image', 'click', () => {
+            this.activeView.card.image = undefined;
+            this.activeView.refresh();
+            this.refreshFromCard();
+        });
+
+        addListener('#upload-image', 'click', () => ONE('#upload-image-input').click());
+        addListener('#upload-image-input', 'input', async event => {
+            this.activeView.card.image = await fileToCompressedImage(event.target.files[0]);
+            event.target.value = "";
+            this.activeView.refresh();
+            this.refreshFromCard();
+        });
+    }
+
+    get hidden() { return this.root.hidden; }
+    set hidden(value) { this.root.hidden = value; }
+
+    refreshAvailableStyles() {
+        this.types = findCardStyleNames();
+        this.typeSelect.innerHTML = '';
+
+        for (let type of this.types) {
+            const button = document.createElement('button');
+            button.classList.add('type-button');
+            button.innerHTML = type;
+            button.setAttribute('title', `change card style to ${type}`);
+            this.typeSelect.appendChild(button);
+
+            button.addEventListener('click', () => this.setType(type));
+            this.typeButtons[type] = button;
+        }
+    }
+
+    setActiveView(view) {
+        this.activeView = view;
+        this.contentInput.select();
+        pageSetters.get('card')('text');
+        this.refreshFromCard();
+    }
+
+    refreshFromCard() {
+        if (!this.activeView) return;
+
+        for (let type of this.types)
+            this.typeButtons[type].classList.remove('selected');
+        this.typeButtons[this.activeView.card.type].classList.add('selected');
+        this.contentInput.value = this.activeView.card.text;
+
+        this.iconRows.forEach(row => {
+            row.select.value = "";
+            row.command.value = "";
+        })
+
+        const icons = this.activeView.card.icons || [];
+        icons.slice(0, 4).forEach((row, i) => {
+            const { select, command } = this.iconRows[i];
+            select.value = row.icon
+            command.value = row.command;
+        });
+
+        ONE('#remove-image').disabled = !this.activeView.card.image;
+        this.altTextInput.value = this.activeView.card.alt || "";
+    }
+
+    setType(type) {
+        if (!this.activeView) return;
+
+        this.activeView.card.type = type;
+        this.refreshFromCard();
+        this.activeView.refresh();
+    }
+}
+
+class CardView {
+    constructor(card) {
+        this._position = [0, 0];
+        this._scale = 1;
+        this._size = domino.cardSize;
+        this.card = card;
+
+        this.root = cloneTemplateElement('#card-template');
+        this.text = ONE('.card-text', this.root);
+        this.icons = ONE('.icon-bar', this.root);
+
+        Array.from(this.icons.children).forEach((icon, i) => {
+            addListener(icon, 'pointerdown', e => e.stopPropagation());
+            addListener(icon, 'dblclick', e => e.stopPropagation());
+            addListener(icon, 'click', e => { 
+                killEvent(e); 
+                domino.runCommand(this.card.icons[i].command)
+            });
+        });
+
+        this.updateContent();
+    }
+
+    get cell() { return this.card.cell; }
+
+    set position(value) { 
+        this._position = value;
+        this.updateTransform();
+    }
+
+    set scale(value) { 
+        this._scale = value;
+        this.updateTransform();
+    }
+
+    set transition(value) {
+        this.root.classList.toggle('skip-transition', !value);
+    }
+
+    skipTransition() {
+        this.transition = false;
+        reflow(this.root);
+        this.transition = true;
+    }
+
+    triggerSpawnAnimation() {
+        this.transition = false;
+        this.root.style.opacity = 0;
+        reflow(this.root);
+        this.transition = true;
+        this.root.style.opacity = 1;
+    }
+
+    updateTransform() {
+        const [x, y] = this._position;
+        const [w, h] = [this.root.offsetWidth, this.root.offsetHeight];
+
+        const position = `translate(${x - w/2}px, ${y - h/2}px)`;
+        const scaling = `scale(${this._scale}, ${this._scale})`;
+        this.root.style.transform = `${position} ${scaling}`;
+    }
+
+    updateContent() {
+        for (let type of domino.editorScreen.types)
+            this.root.classList.toggle(`domino-card-${type}`, this.card.type === type);
+
+        this.text.innerHTML = parseFakedown(this.card.text);
+        this.root.style.setProperty('background-image', this.card.image ? `url(${this.card.image})` : '');
+        this.root.classList.toggle('has-image', !!this.card.image);
+
+        (this.card.icons || []).forEach((row, i) => {
+            const button = this.icons.children[i];
+            button.innerHTML = row.icon;
+            button.href = row.command;
+            button.classList.toggle('blank', row.icon === '');
+            button.classList.toggle('cosmetic', row.command === '');
+        });
+    }
+    
+    refresh() {
+        this.updateContent();
+        this.updateTransform();
+    }
+}
+
+const domino = new Domino();
+
+async function loaded() {
+    setupClassHooks();
+
+    domino.setup();
+
+    window.addEventListener('resize', updateDocumentVariables);
+    updateDocumentVariables();
+
+    // no doubleclick on mobile
+    DragDropTouch._DBLCLICK = 0;
+
+    // center the currently selected cell
+    const jumpFromHash = () => domino.focusCell(getCoordsFromHash());
+    window.addEventListener('hashchange', jumpFromHash);
+    window.addEventListener('resize', jumpFromHash);
+    
+    // load data from embeded #data script tag
+    const coords = getCoordsFromHash();
+    const data = getElementJsonData('#data');
+    domino.setUnlocked(false);
+    domino.focusCellNoTransition(coords);
+    domino.setData(data);
+
+    // image pasting
+    window.addEventListener('paste', async event => {
+        if (!domino.unlocked) return;
+        const image = await dataTransferToImage(event.clipboardData);
+
+        if (image && domino.selectedCardView) {
+            const cell = domino.selectedCardView.card.cell;
+            domino.putImageInCell(cell, image);
+            killEvent(event);
+            return;
+        }
+    });
+
+    // keyboard shortcuts
+    window.addEventListener('keydown', event => {
+        if (event.key === 'Escape')
+            ALL('.screen').forEach(e => e.hidden = true);
+
+        const noScreens = ALL('.screen').map(e => e.hidden).reduce((a, b) => a && b);
+        if (!noScreens) return;
+
+        if (event.altKey) {
+            if (event.key === 'e') {
+                domino.editFocusedCell();
+            } else if (event.key === 's') {
+                const view = domino.cellToView.get(domino.focusedCell);
+                if (view)
+                    say((view.card.alt || "") + '.\n' + view.text.innerText);
+            }
+
+            killEvent(event);
+            return;
+        }
+
+        const [q, r] = domino.focusedCell;
+        if (event.key === 'ArrowLeft')  domino.focusCell(event.shiftKey ? [q - 1, r + 0] : [q - 1, r + 1]);
+        if (event.key === 'ArrowRight') domino.focusCell(event.shiftKey ? [q + 1, r + 0] : [q + 1, r - 1]);
+        if (event.key === 'ArrowUp')    domino.focusCell([q + 0, r - 1]);
+        if (event.key === 'ArrowDown')  domino.focusCell([q + 0, r + 1]);
+
+        if (event.code === 'KeyQ')  domino.focusCell([q - 1, r + 0]);
+        if (event.code === 'KeyW')  domino.focusCell([q + 0, r - 1]);
+        if (event.code === 'KeyE')  domino.focusCell([q + 1, r - 1]);
+        if (event.code === 'KeyA')  domino.focusCell([q - 1, r + 1]);
+        if (event.code === 'KeyS')  domino.focusCell([q + 0, r + 1]);
+        if (event.code === 'KeyD')  domino.focusCell([q + 1, r + 0]);
+
+        if (event.key === ' ') domino.toggleZoom();
+    });
+
+    window.addEventListener('wheel', event => {
+        if (event.deltaY > 0) domino.scale = .5;
+        if (event.deltaY < 0 && domino.scale === .5) {
+            domino.deselect();
+            domino.focusCell(domino.pointerEventToCell(event));
+            domino.scale = 1;
+        }
+    });
+
+    // neocities publish
+    const startButton = document.querySelector("#neocities-start");
+    const openButton = document.querySelector("#neocities-open");
+
+    startButton.addEventListener("click", async () => {
+        console.log("HELLO")
+        openButton.hidden = false;
+        openButton.disabled = true;
+
+        const ready = new Promise((resolve, reject) => {
+            const remove = listen(window, "message", (event) => {
+                if (event.origin !== "https://kool.tools") return;
+                remove();
+                resolve();
+            });
+        });
+
+        const success = new Promise((resolve, reject) => {
+            const remove = listen(window, "message", (event) => {
+                if (event.origin !== "https://kool.tools") return;
+
+                if (event.data.error) {
+                    remove();
+                    reject(event.data.error);
+                } else if (event.data.url) {
+                    remove();
+                    resolve(event.data.url);
+                }
+            });
+        });
+
+        const popup = window.open(
+            "https://kool.tools/neocities-publisher/index.html", 
+            "neocities publisher",
+            "left=10,top=10,width=320,height=320");
+        const { name, html } = projectToHTML();
+        await ready;
+        popup.postMessage({ name, html }, "https://kool.tools");
+        const url = await success;
+        popup.close();
+        openButton.disabled = false;
+        openButton.onclick = () => window.open(url);
+    });
+}
+
+    </script>
+  <style type="text/css">
+@font-face {
+  font-weight: 400;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 500;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 700;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 900;
+  font-style:  normal;
+  font-family: 'Circular-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
+}</style></head>
+  <body class="no-select" onload="loaded()" style="">
+    <div id="templates" hidden="">
+      <div class="card" id="card-template" draggable="false" data-card="">
+        <div class="card-text"></div>
+        <div class="card-icon-bar icon-bar"><a class="blank"></a><a class="blank"></a><a class="blank"></a><a class="blank"></a></div>
+      </div>
+      <div class="card-edit-bar icon-bar" id="cardbar-template" data-locked-visibility="hidden" hidden="">
+        <button id="edit-card" title="edit this card">📝</button>
+        <button id="link-card" hidden="" title="link this card" draggable="true">🔗</button>
+      </div>
+    </div>
+    <div id="pan-screen">
+      <main id="scene" data-export-clear="" class="" style="transform: scale(0.5) translate(-598px, -380px);"></main>
+    </div>
+    <div id="coords" draggable="true">#2,1</div>
+    <div class="icon-bar" id="toolbar" data-block-clicks="">
+      <div id="open-about" title="information &amp; settings">🔨</div>
+      <div id="zoom" title="switch zoom level">🔎</div>
+      <div id="center" title="jump to center">🏠</div>
+      <div id="add-delete-icon" draggable="true" title="drag a new card from here or a drop an unwanted card" data-locked-visibility="hidden" hidden="">🗃️</div>
+      <div id="fullscreen" title="toggle fullscreen" hidden="">💢</div>
+      <div id="unlocked" title="prevent accidental editing" data-locked-visibility="hidden" hidden="">🔓</div>
+      <div id="locked" title="enable editing" data-locked-visibility="shown">🔒</div>
+    </div>
+    <div id="pan-blocker" hidden=""></div>
+    <div class="screen" id="display-screen" hidden="" data-click-to-hide="">
+      <iframe id="display-frame" data-block-clicks="" allow="autoplay"></iframe>
+    </div>
+    <div class="screen" id="editor-screen" data-click-to-hide="" hidden="">
+      <div id="editor-preview"></div>
+      <div id="editor-section" data-block-clicks="">
+        <div class="tab-bar">
+          <div data-close-parent-screen="">◀ </div>
+          <div class="selected" data-tab="text" data-tab-set="card">TEXT</div>
+          <div data-tab="icons" data-tab-set="card" class="">ICONS</div>
+          <div data-tab="style" data-tab-set="card" class="">STYLE</div>
+        </div>
+        <div class="editor-page tab-page" data-page="text" data-tab-set="card">
+          <textarea id="content-input" class=""></textarea>
+        </div>
+        <div class="editor-page tab-page" data-page="icons" data-tab-set="card" hidden="">
+          <input class="icon-select" id="editor-icon-select-1" type="text">
+          <input class="icon-command" id="editor-icon-command-1" type="text">
+          <input class="icon-select" id="editor-icon-select-2" type="text">
+          <input class="icon-command" id="editor-icon-command-2" type="text">
+          <input class="icon-select" id="editor-icon-select-3" type="text">
+          <input class="icon-command" id="editor-icon-command-3" type="text">
+          <input class="icon-select" id="editor-icon-select-4" type="text">
+          <input class="icon-command" id="editor-icon-command-4" type="text">
+        </div>
+        <div class="editor-page" data-page="style" data-tab-set="card" hidden="">
+          <div class="button-list" id="type-select" data-export-clear=""></div>
+          <div class="button-list">
+            <button id="upload-image">upload image</button>
+          </div>
+          <div class="button-list">
+            <input id="alt-text" type="text" placeholder="alt text">
+            <button id="remove-image" disabled="">remove image</button>
+            <input id="upload-image-input" type="file" accept="image/*" hidden="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="screen" id="menu-screen" data-click-to-hide="" data-export-hide="" hidden="">
+      <div class="full-panel" data-block-clicks="">
+        <div class="tab-bar" data-tab="">
+          <div data-close-parent-screen="">◀ </div>
+          <div class="" data-tab="howto" data-tab-set="menu">HOWTO</div>
+          <div data-tab="board" data-tab-set="menu" class="selected">BOARD</div>
+          <div data-tab="about" data-tab-set="menu">ABOUT</div>
+        </div>
+        <div class="tab-page" data-page="board" data-tab-set="menu">
+          <h3>board title</h3>
+          <input id="board-title" class="">
+          <h3>actions</h3>
+          <div class="button-list">
+            <button id="import" title="import a domino project">📂 import from html</button>
+            <button id="export" title="export as html">📦 export to html</button>
+            <button id="neocities-start" title="begin neocities publish">😻 publish to neocities</button>
+            <button id="neocities-open" hidden="" data-export-hide="" title="open published neocities">👀 open neocities page</button>
+            <button id="reset" title="remove all cards">❌ remove all cards</button>
+          </div>
+          <input id="import-file" type="file" accept=".html" hidden="">
+          <h3>style</h3>
+          <textarea id="style-input" class=""></textarea>
+        </div>
+        <div class="tab-page" data-page="howto" data-tab-set="menu" hidden=""><h2>what is this</h2>
+<p>this page was created using a tool called <a href="https://kool.tools/domino/">domino</a>. it is a spatial
+arrangement of cards that together might form an essay or a mind map or a
+collage or something else entirely.</p>
+<p>click and drag to navigate the board. double click a card to jump to it. some
+cards have emoji icons along the bottom that perform various actions when
+clicked.</p>
+<p>this page is also a working copy of domino. toggle into unlocked mode with
+the 🔓 icon on the toolbar, and made your own changes.</p>
+<h2>keyboard shortcuts</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>arrows</strong></td>
+<td>move between cards</td>
+</tr>
+<tr>
+<td><strong>QWEASD</strong></td>
+<td>move between cards</td>
+</tr>
+<tr>
+<td><strong>escape</strong></td>
+<td>exit window</td>
+</tr>
+<tr>
+<td><strong>alt+s</strong></td>
+<td>speak selected card</td>
+</tr>
+<tr>
+<td><strong>alt+e</strong></td>
+<td>edit selected card</td>
+</tr>
+<tr>
+<td><strong>ctrl+drag</strong></td>
+<td>make copy of card</td>
+</tr>
+</tbody>
+</table>
+
+        </div>
+        <div class="tab-page" hidden="" data-page="about" data-tab-set="menu">
+          <div id="version">
+            version—beta-7 (11/5/2020)</div><h2>about domino</h2>
+<p>domino is a tool for collaging fragmented thoughts into a larger idea.
+it's essentially a tool for making a particular kind of mindmap and sharing it
+as a page on your website or itch.io.</p>
+<p>you can find out more about domino on <a href="https://kool.tools/domino/">the release page</a>. the source
+code for original releases can be found <a href="https://github.com/Ragzouken/domino">on github</a>.</p>
+<p>i'm <a href="https://twitter.com/ragzouken">mark wonnacott a.k.a candle</a> and i created domino as a
+<a href="https://kool.tools/2020/02/26/speculations.html">response to my frustration</a> trying to express myself in Emilie Reed's
+writing jams.</p>
+<h2>thanks</h2>
+<p><strong>Em Reed</strong> for <a href="https://itch.io/jam/manifesto-jam">Manifesto Jam</a> and <a href="https://itch.io/jam/speculation-jam">Speculation Jam</a> which have
+deeply inspired me and also motivated the creation of this tool. also for
+certain flippant comments that pushed me into developing web based tools.</p>
+<p><strong>Max</strong> for <a href="https://github.com/synth-ruiner/image-to-bitsy">image to bitsy</a> whose source code was a valuable reference for
+developing web tools. also for feedback and bug reports.</p>
+<p><strong>sg</strong> for <a href="https://zenzoa.itch.io/mosi">môsi</a> whose source code was a valuable reference for developing
+web tools. also for feedback and bug reports.</p>
+<p><strong>Kris De Decker</strong> for <a href="https://solar.lowtechmagazine.com/">LOW←TECH MAGAZINE</a> which continues to inspire me to
+think about how computing and software can and must change in the future. also
+the aesthetic inspiration for the default style in domino.</p>
+<p><strong>Chris Klimas</strong> for <a href="https://twinery.org/">Twine</a> whose card based layout and ecosystem of user
+customisation is an inspiration to domino.</p>
+<h2>attribution</h2>
+<p><strong>Bernardo Castilho</strong> created <a href="https://github.com/Bernardo-Castilho/dragdroptouch">DragDropTouch</a> which domino uses to make card
+dragging work correctly in mobile browsers.</p>
+<p><strong>Eli Grey</strong> created <a href="https://github.com/eligrey/FileSaver.js/">FileSaver.js</a> which domino uses to launch the save
+dialogue when exporting.</p>
+<p><strong>Cyreal</strong> created <a href="https://fonts.google.com/specimen/Lora">Lora</a> which is the font domino uses.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="screen" id="load-screen" data-block-clicks="" hidden=""></div>
+  <script src="/__lightserver__/reload-client.js"></script>
+</body><loom-container id="lo-engage-ext-container"><div></div><loom-shadow classname="resolved"></loom-shadow></loom-container></html>
